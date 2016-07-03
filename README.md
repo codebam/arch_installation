@@ -10,11 +10,11 @@ Partition your disks
         >mkfs.fat -F32 /dev/sdxY
 
 2. Root Partition
-    - Choose whatever filesystem you want, BUT if you choose to make it
-        BTRFS you will need a seperate partition for your swap since
-        BTRFS doesn't play well with swapfiles.
+    - Choose whatever file system you want, BUT if you choose to make it
+        BTRFS you will need a separate partition for your swap since
+        BTRFS doesn't play well with swap files.
 
-    - If you want different filesystems on different partitions you can
+    - If you want different file systems on different partitions you can
         choose to make separate partitions for /boot, /home, or any
         folder you choose. I don't recommend this, unless you need it,
         as it might create problems with storage later on.
@@ -56,7 +56,7 @@ top
 
 Might take a while, depending on your download speed
 
-Install Bootloader
+Install Boot loader
 ---
 I recommend grub, if you use something else that's on you.
 

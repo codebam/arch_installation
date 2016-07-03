@@ -7,7 +7,7 @@ Partition your disks
 1. EFI System Partition
     - 512MB
     - FAT32
-        >mkfs.fat -F32 /dev/sdxY
+        > mkfs.fat -F32 /dev/sdxY
 
 2. Root Partition
     - Choose whatever file system you want, BUT if you choose to make it
